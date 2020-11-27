@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#login-box{
+    width: 40%;
+    height:auto;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding: 20px 50px;
+    background:  #ffffff80;
+}
+#login-box .form{
+    margin-top: 30px;
+}
+#login-box .form .item {
+    margin-top: 12px;
+}
+#login-box .form .item input{
+    outline-style: none;
+    border: 0;
+    border-bottom: 2px solid rgb(3, 48, 66);
+    padding: 5px 10px;
+    background: #ffffff50;
+    color: black;
+}
+#login-box .button{
+    border: 0;
+    margin-top: 30px;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    background: rgb(41, 167, 240);
+    outline-style: none;
+}
+#login-box .button a{
+    text-decoration: none;
+}

@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\program files\\nodejs\\\\node.exe',
+1 verbose cli   'E:\\program files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mysql' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.16
+4 verbose node symlink E:\program files\nodejs\\node.exe
+5 warn package.json copy-descriptor@0.1.1 No README data
+6 warn package.json get-value@2.0.6 No README data
+7 warn package.json object-copy@0.1.0 No README data
+8 warn package.json pstree.remy@1.1.7 No repository field.
+9 warn package.json pstree.remy@1.1.7 No README data
+10 warn package.json path-is-inside@1.0.2 No README data
+11 warn package.json static-extend@0.1.2 No README data
+12 warn package.json asap@1.0.0 No repository field.
+13 warn package.json css-stringify@1.0.5 No repository field.
+14 warn package.json css@1.0.8 No repository field.
+15 warn package.json css-parse@1.0.4 No repository field.
+16 verbose readDependencies using package.json deps
+17 verbose cache add [ 'mysql@^2.18.1', null ]
+18 verbose cache add name=undefined spec="mysql@^2.18.1" args=["mysql@^2.18.1",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'mysql@^2.18.1',
+19 verbose parsed url   path: 'mysql@^2.18.1',
+19 verbose parsed url   href: 'mysql@^2.18.1' }
+20 verbose cache add name="mysql" spec="^2.18.1" args=["mysql","^2.18.1"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^2.18.1',
+21 verbose parsed url   path: '^2.18.1',
+21 verbose parsed url   href: '^2.18.1' }
+22 verbose addNamed [ 'mysql', '^2.18.1' ]
+23 verbose addNamed [ null, '>=2.18.1-0 <3.0.0-0' ]
+24 silly lockFile 90d9db08-mysql-2-18-1 mysql@^2.18.1
+25 verbose lock mysql@^2.18.1 C:\Users\刘远鑫\AppData\Roaming\npm-cache\90d9db08-mysql-2-18-1.lock
+26 silly addNameRange { name: 'mysql', range: '>=2.18.1-0 <3.0.0-0', hasData: false }
+27 verbose url raw mysql
+28 verbose url resolving [ 'https://registry.npmjs.org/', './mysql' ]
+29 verbose url resolved https://registry.npmjs.org/mysql
+30 info trying registry request attempt 1 at 10:19:58
+31 http GET https://registry.npmjs.org/mysql
+32 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+33 info trying registry request attempt 2 at 10:20:09
+34 http GET https://registry.npmjs.org/mysql
+35 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+36 info trying registry request attempt 3 at 10:21:09
+37 http GET https://registry.npmjs.org/mysql
+38 silly lockFile 90d9db08-mysql-2-18-1 mysql@^2.18.1
+39 silly lockFile 90d9db08-mysql-2-18-1 mysql@^2.18.1
+40 error Error: CERT_UNTRUSTED
+40 error     at SecurePair.<anonymous> (tls.js:1350:32)
+40 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+40 error     at SecurePair.maybeInitFinished (tls.js:963:10)
+40 error     at CleartextStream.read [as _read] (tls.js:463:15)
+40 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+40 error     at EncryptedStream.write [as _write] (tls.js:366:25)
+40 error     at doWrite (_stream_writable.js:219:10)
+40 error     at writeOrBuffer (_stream_writable.js:209:5)
+40 error     at EncryptedStream.Writable.write (_stream_writable.js:180:11)
+40 error     at write (_stream_readable.js:575:24)
+41 error If you need help, you may report this log at:
+41 error     <http://github.com/isaacs/npm/issues>
+41 error or email it to:
+41 error     <npm-@googlegroups.com>
+42 error System Windows_NT 6.2.9200
+43 error command "E:\\program files\\nodejs\\\\node.exe" "E:\\program files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mysql"
+44 error cwd C:\Users\刘远鑫\Desktop\agent
+45 error node -v v0.10.16
+46 error npm -v 1.3.8
+47 verbose exit [ 1, true ]
